@@ -66,25 +66,6 @@ const userSchema = new Schema(
         type: Number,
       },
     },
-    wallet: {
-      is_connected: {
-        type: Boolean,
-        default: false,
-      },
-      is_funded: {
-        type: Boolean,
-        default: false,
-      },
-      provider: {
-        type: String,
-      },
-      addresses: {
-        type: Array,
-      },
-      wap_balance: {
-        type: Number,
-      },
-    },
   },
   {
     timestamps: true,
