@@ -1,0 +1,32 @@
+# Environment variables
+.env
+.env.test
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+**/node_modules
+jspm_packages/
+
+# DynamoDB local files
+.dynamodb/
+
+# VSCode test versions
+.vscode-test
+
+# Parcel bundler cache
+.cache
+.parcel-cache
+
+# DS Store
+.DS_Store
