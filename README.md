@@ -1,4 +1,4 @@
-# SMS Auth
+# sms-auth
 
 API for passwordless SMS authentication powered by Twilio. Features include session management, account lock (too many attempts), account recovery, IP tracking, anonymous login, and more.
 
